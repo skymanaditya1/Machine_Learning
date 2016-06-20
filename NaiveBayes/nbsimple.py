@@ -30,11 +30,12 @@ if __name__=="__main__":
 	print(class_frequency)
 
 
-	# A test example
+	# A test example, enter more test cases here
 	test_data = ['Sunny', 'Cool', 'High', 'Strong']
 
 	class_likelihood = {}
 	class_attribute_count = {}
+
 	# Compute the likelihood for all the target_values
 	for class_value in class_frequency:
 		class_likelihood[class_value] = 1 # Assign initial probability
